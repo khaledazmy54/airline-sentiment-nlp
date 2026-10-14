@@ -1,0 +1,12 @@
+streamlit>=1.50
+pandas
+numpy
+plotly
+scikit-learn
+imbalanced-learn   # needed to load the saved SMOTE pipelines
+nltk
+joblib
+scipy
+gensim             # optional: topic assignment (LDA)
+torch              # optional: only if you trained DistilBERT
+transformers       # optional: only if you trained DistilBERT
